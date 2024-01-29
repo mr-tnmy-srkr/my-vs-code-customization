@@ -1,0 +1,55 @@
+{
+  "editor.mouseWheelZoom": true,
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "material-icon-theme.files.associations": {},
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "files.autoSave": "afterDelay",
+  "git.enableSmartCommit": true,
+  "editor.fontFamily": "fira code,JetbrainsMono Nerd Font,'Courier New',monospace",
+  "editor.fontWeight": 500,
+  "editor.fontSize": 18,
+  "editor.fontLigatures": true,
+  "workbench.editorAssociations": {
+    "*.fig": "default"
+  },
+  "cSpell.userWords": ["Favourite"],
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "tabnine.experimentalAutoImports": true,
+  "settingsSync.ignoredExtensions": [],
+  "settingsSync.ignoredSettings": [],
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.cursorBlinking": "expand",
+  "powermode.enabled": true,
+  "powermode.explosions.customCss": {},
+  "terminal.integrated.env.windows": {},
+  "console-ninja.featureSet": "Community",
+
+  // lws settings
+
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.run": "onSave",
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    }
+  },
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false
+}
