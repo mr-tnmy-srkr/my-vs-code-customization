@@ -1,0 +1,23 @@
+{"Create JSX Component": {
+
+	"prefix": ["rsc", "com"],
+	
+	"body": [
+	"\n",
+	"const ${TM_FILENAME_BASE} = () => {",
+
+	"\treturn(",
+	
+	"\t\t<div>",
+	
+	"\t\t\t <h1>${TM_FILENAME_BASE}</h1>$1" 
+	
+	"\t\t</div>",
+	
+	"\t)}",
+	
+	"export default ${TM_FILENAME_BASE};"
+	],
+	"description": "Create a JSX component template with filename as function name"
+	
+	}}
